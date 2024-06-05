@@ -6,5 +6,102 @@
     <title>Blogger</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div id="navbar-inner">
+          <h2>Blog</h2>
+          <ul id="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Categorias</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <main id="posts-container">
+        <article class="post">
+          <img src="img/f1.jpg" alt="Passeio de barco" />
+          <h3 class="title"><a href="#">Algum Título</a></h3>
+          <p class="description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt
+            inventore vitae tenetur possimus blanditiis, laboriosam optio
+            architecto! Reiciendis corporis inventore consectetur architecto
+            officia, sunt, fuga blanditiis eligendi accusantium repudiandae
+            ducimus.
+          </p>
+          <p class="author">Por: DevDog</p>
+          <a href="#">Ler mais</a>
+        </article>
+        <article class="post">
+          <img src="img/f2.jpg" alt="Cachoeira" />
+          <h3 class="title"><a href="#">Outro Título</a></h3>
+          <p class="description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt
+            inventore vitae tenetur possimus blanditiis, laboriosam optio
+            architecto! Reiciendis corporis inventore consectetur architecto
+            officia, sunt, fuga blanditiis eligendi accusantium repudiandae
+            ducimus.
+          </p>
+          <p class="author">Por: DevDog</p>
+          <a href="#">Ler mais</a>
+        </article>
+        <article class="post">
+          <img src="img/f3.jpg" alt="Balões" />
+          <h3 class="title"><a href="#">Postagem Três</a></h3>
+          <p class="description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt
+            inventore vitae tenetur possimus blanditiis, laboriosam optio
+            architecto! Reiciendis corporis inventore consectetur architecto
+            officia, sunt, fuga blanditiis eligendi accusantium repudiandae
+            ducimus.
+          </p>
+          <p class="author">Por: DevDog</p>
+          <a href="#">Ler mais</a>
+        </article>
+      </main>
+      <!-- BARRA LATERAL -->
+      <aside id="sidebar">
+        <section id="search-bar">
+          <h4>Buscar</h4>
+          <form action="">
+            <input type="text" placeholder="Pesquise no Blog" />
+            <input type="submit" value="Buscar" />
+          </form>
+        </section>
+        <section id="categories">
+          <h2>Categorias</h2>
+          <nav>
+            <ul>
+              <li><a href="#">Paisagens</a></li>
+              <li><a href="#">Aventura</a></li>
+              <li><a href="#">Viagens Longas</a></li>
+              <li><a href="#">Florestas</a></li>
+              <li><a href="#">Cachoeiras</a></li>
+            </ul>
+          </nav>
+        </section>
+        <section id="tags">
+          <h4>Tags</h4>
+          <div id="tags-container">
+            <a href="#">Lifestyle</a>
+            <a href="#">Viagem</a>
+            <a href="#">Barco</a>
+            <a href="#">Trilha</a>
+            <a href="#">Tirolesa</a>
+            <a href="#">Rafting</a>
+            <a href="#">Parapente</a>
+          </div>
+        </section>
+      </aside>
+    </div>
+    <!-- Footer -->
+    <footer id="footer">
+      <h2>Blog</h2>
+      <p>Os melhores registros de aventura</p>
+      <p>2024 &copy; DevDog</p>
+    </footer>
+  </body>
 </html>
